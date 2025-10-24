@@ -30,7 +30,7 @@ Before running the tests, make sure you have:
 pip install robotframework
 pip install robotframework-requests
 
-🧪 Test Cases Overview
+** Test Cases Overview**
 1. GET User Details
 
 Endpoint: GET /api/users/2
@@ -55,7 +55,7 @@ Purpose: Update an existing user’s information.
 
 Expected Status Code: 200
 
-▶️ Test Execution Steps
+** Test Execution Steps**
 
 Open a terminal or command prompt in the project root folder.
 
