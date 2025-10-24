@@ -6,12 +6,12 @@ The suite demonstrates basic **GET**, **POST**, and **PUT** requests with the `R
 ---
 
 ## Project Structure
-
+```
 robot-tests/
 ├── tests/
 │ └── api_tests.robot # Main Robot test file
 └── README.md # Documentation
-
+```
 
 ---
 
@@ -29,8 +29,9 @@ Before running the tests, make sure you have:
 ```bash
 pip install robotframework
 pip install robotframework-requests
-
-** Test Cases Overview**
+```
+---
+**Test Cases Overview**
 1. GET User Details
 
 Endpoint: GET /api/users/2
@@ -55,7 +56,8 @@ Purpose: Update an existing user’s information.
 
 Expected Status Code: 200
 
-** Test Execution Steps**
+
+**Test Execution Steps**
 
 Open a terminal or command prompt in the project root folder.
 
